@@ -13,17 +13,17 @@ Download the latest .unitypackage file from [Releases Page](https://github.com/s
 2. Open the Animation Window (Window -> Animation -> Animation or press Ctrl + 6)
 3. Click the record button and change the Live2D model parameter values  — the timeline will track the changes and create keyframes.
 
-https://github.com/s1fx/UnityLive2DCubismPoser/assets/141889958/f577d690-b2f3-4858-a5fa-daa4a25353bf
+https://github.com/s1fx/UnityLive2DCubismPoser/assets/141889958/8caef26f-5203-4a00-af09-49bfdf39c96d
 
 You can also create keyframes for specific properties by selecting them in the CubismPoser Inspector and clicking the **Create Keyframes For Selected** button (active only in record mode):
 
-https://github.com/s1fx/UnityLive2DCubismPoser/assets/141889958/802c162d-7292-4b01-96d2-4346c62344e5
+https://github.com/s1fx/UnityLive2DCubismPoser/assets/141889958/3382e822-9ea2-4d31-9e82-7664f394ad0d
 
 ## Parameters Groups
 You can create parameter groups for quick selection:
 
-https://github.com/s1fx/UnityLive2DCubismPoser/assets/141889958/cb126cce-13d2-4994-bcf9-b5c553f387db
+https://github.com/s1fx/UnityLive2DCubismPoser/assets/141889958/069fd0fc-d860-4632-98f7-8c0dd3bfe5f2
 
 Groups settings are stored in the **CubismPoser/Prefabs/PoserGroups.prefab**. Any parameter starting with a name in the list (regardless of case) will be selected when the group is selected:
 
-![260202497-c091887b-e215-4725-8d0e-f8fff61aac10](https://github.com/s1fx/UnityLive2DCubismPoser/assets/141889958/4c405713-57ef-467e-87f2-7c37bb23c0c4)
+![Screenshot 2023-08-12 082356](https://github.com/s1fx/UnityLive2DCubismPoser/assets/141889958/ff60b91b-625d-48d0-ab71-8553ed92f549)
