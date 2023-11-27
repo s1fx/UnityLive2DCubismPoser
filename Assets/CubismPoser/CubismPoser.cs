@@ -31,8 +31,13 @@ namespace SF.Cubism.Poser
                 
                 if (TryGetComponent<CubismParametersInspector>(out var cubismInspector))
                     DestroyImmediate(cubismInspector);
-               
+
+                if (!TryGetComponent(out _updateController))
+                    _updateController = gameObject.AddComponent<CubismUpdateController>();
+
                 CubismUpdater(false);
+
+                _updateController.enabled = true;
                 _initialized = true;
             }
             else
@@ -61,9 +66,6 @@ namespace SF.Cubism.Poser
         {
             if (_model != null)
                 _model.enabled = state;
-
-            if (_updateController != null)
-                _updateController.enabled = state;
         }
     }
 }
